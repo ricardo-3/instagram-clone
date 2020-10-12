@@ -1,0 +1,62 @@
+.containerPost{
+    margin-top: 50px;
+}
+.post{
+    border-radius: 3px;
+    max-width: 616px;
+    max-height: 957px;
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.headerPost{
+    display: inline-flex;
+    padding: 15px 15px 0px 15px;  
+}
+.userName{
+    margin-top: 5px;
+}
+.moreOptions{
+    border: 0;
+    background: white;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.photo{
+    padding: 10px 10px 10px 10px;
+}
+.menuPost{
+    padding: 15px 15px 15px 15px;  
+}
+.bookmark{
+    float: right;
+}
+.imgLike{
+    border-radius: 50%;
+}
+.likesPost{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+.comentPost{
+    display: inline-flex;
+    margin-left: 15px;
+}
+.moreComents{
+    display: inline-flex;
+    margin-left: 15px;
+}
+.timePost{
+    margin-left: 15px;
+    font-size: x-small;
+    color: gray;
+}
+.newComent{
+    border: 0;
+    padding: 3px 15px 15px 15px;
+}
+.publicar{
+    float: right;
+    margin-right: 15px;
+}
