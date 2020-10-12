@@ -60,3 +60,26 @@
     float: right;
     margin-right: 15px;
 }
+
+
+.container{
+    margin-bottom: 120px;
+}
+
+.icono i{
+    color: aliceblue;
+}
+
+.perfil img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+}
+
+
+@media (min-width: 800px) {
+    .footer{visibility: hidden}
+
+
+ }
