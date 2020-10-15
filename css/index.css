@@ -7,14 +7,11 @@
     position: relative;
     z-index: 99;
     flex-wrap: wrap;
-    
 }
 
 nav{
     display: flex;
     justify-content: space-around;
-   
-    
 }
 
  .navigator a h2{
@@ -23,9 +20,6 @@ nav{
     margin-right: 160px;
     margin-top: 6px;
    
-    
-    
-    
 }
 .navigator a{
     text-decoration: none;
@@ -34,17 +28,12 @@ nav{
 .cam{
     margin-top: 10px; 
   color: white;
- 
-    
 }
 
 .msn{
     margin-top: 10px;
     color: white;
-   
-    
 }
-
 
 .containerPost{
     margin-top: 50px;
