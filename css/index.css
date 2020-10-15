@@ -17,7 +17,7 @@ nav{
  .navigator a h2{
     font-family: cursive;
     color: black;
-    margin-right: 160px;
+   
     margin-top: 6px;
    
 }
@@ -37,6 +37,7 @@ nav{
 
 .containerPost{
     margin-top: 50px;
+   
 }
 .post{
     border-radius: 3px;
@@ -44,6 +45,7 @@ nav{
     max-height: 957px;
     border: 1px solid #dbdbdb;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
+   
 }
 .headerPost{
     display: inline-flex;
