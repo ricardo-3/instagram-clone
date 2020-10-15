@@ -1,3 +1,51 @@
+
+/*Estilos del header*/
+.header{
+    background: #343a40!important;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    z-index: 99;
+    flex-wrap: wrap;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+ .navigator a h2{
+    font-family: cursive;
+    color: black;
+    margin-right: 160px;
+    margin-top: 6px;
+   
+    
+    
+    
+}
+.navigator a{
+    text-decoration: none;
+}
+
+.cam{
+    margin-top: 10px; 
+  color: white;
+ 
+    
+}
+
+.msn{
+    margin-top: 10px;
+    color: white;
+   
+    
+}
+
+
 .containerPost{
     margin-top: 50px;
 }
@@ -83,3 +131,12 @@
 
 
  }
+
+ @media (min-width: 800px) {
+    .header{visibility: hidden}
+
+
+ }
+
+
+ 
