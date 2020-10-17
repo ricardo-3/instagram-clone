@@ -14,14 +14,14 @@ nav{
     justify-content: space-around;
 }
 
- .navigator a h2{
+ .header-menu a h2{
     font-family: cursive;
     color: black;
    
     margin-top: 6px;
    
 }
-.navigator a{
+.header-menu a{
     text-decoration: none;
 }
 
