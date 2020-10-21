@@ -3,9 +3,9 @@
 .header{
     background: #343a40!important;
     width: 100%;
-    height: 50px;
-    position: relative;
-    z-index: 99;
+    height: 50px;    
+    position: fixed;
+    top: 0;    
     flex-wrap: wrap;
 }
 
@@ -16,11 +16,26 @@ nav{
 
  .header-menu a h2{
     font-family: cursive;
-    color: black;
-   
+    color: #FFF;   
     margin-top: 6px;
-   
+    font-family: 'Leckerli One', cursive;   
 }
+
+.buscador{
+    margin-top: 7px;    
+}
+
+
+.iconos{    
+    margin-top: 7px;    
+    font-size: 20px;    
+}
+.iconos .icono{    
+   margin-left: 20px;    
+}
+
+
+
 .header-menu a{
     text-decoration: none;
 }
@@ -35,13 +50,24 @@ nav{
     color: white;
 }
 
+
+main{
+    margin-top: 100px;
+}
+
+
+
+
+
+
 .containerPost{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 45px;
    
 }
 .post{
     border-radius: 3px;
-    max-width: 616px;
+    width: 60%;
     max-height: 957px;
     border: 1px solid #dbdbdb;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
@@ -102,7 +128,8 @@ nav{
 
 
 .container{
-    margin-bottom: 120px;
+    margin-bottom: 30px;
+   
 }
 
 .icono i{
@@ -117,17 +144,186 @@ nav{
 }
 
 
+aside{
+    width: 30%;
+    height: 600px;   
+    margin-right: 10PX;
+    margin-top: 20px;    
+    margin-left: 62%;
+    position: fixed;
+}
+
+aside .usuario{
+    width: 90%;
+    height: 70px;    
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+/* -------------------------*/
+.imagenes{
+    width: 70px;
+    height: 70px;
+    border-top: solid 2px red ;  
+    border-left: solid 2px purple; 
+    border-right: solid 2px red;  
+    border-bottom: solid 2px purple;    
+    border-radius: 50%;
+}
+.imagenes img{
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 3px 0 0 3px;
+    
+}
+
+.usuario-nombre{
+    width: 70%;
+    height: 70px;    
+    margin-left: 15px;
+}
+
+.usuario-nombre h6{
+    margin: 15px  0 0 0;
+}
+
+.usuario-nombre p{
+    color: gray;
+}
+
+
+
+
+/* -------------------------*/
+
+
+aside .usuarios{
+    width: 90%;
+    height: 30px;    
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    
+        
+}
+aside .usuarios a{    
+    list-style: none;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+aside .usuarios h6{ 
+    color: gray;   
+    
+}
+
+
+aside .sugerencias{
+    width: 90%;
+    height: 50px;
+    background-color:#ffff;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+
+.imagen{
+    width: 100%;
+    max-width: 40px;    
+    height: 40px;
+    border: solid 1px red;  
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+
+.imagen img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 1px 1px 1px 1px;   
+}
+.datos-usuario{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+
+}
+.perfiles h6{
+    margin: 0 0; 
+    font-size: 15px;
+}
+
+.perfiles p{
+    margin: 0 0; 
+    color: gray;
+    font-size: 15px;
+}
+
+.ver-mas a{
+    text-decoration: none;
+}
+
+.informacion{
+    width: 90%;
+    height: 75px;
+    background-color: #fff;
+    margin-top: 10px;
+    
+}
+
+.informacion h6{    
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    color: gray;
+ }
+
+.informacion p{    
+   margin: 0 0;
+   font-size: 12px;
+   color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 800px) {
     .footer{visibility: hidden}
 
 
  }
-
- @media (min-width: 800px) {
-    .header{visibility: hidden}
+ 
+ 
+ @media (max-width: 1000px) {
+    aside{visibility: hidden}
 
 
  }
+ @media (max-width: 999px) {
+    .historias{
+        width: 70%;
+        height: 100px;
+        background-color:gray;
+        margin-top: 30px;
+        margin-left: 46px;
+    
+    }
 
 
+ }
+ 
  
