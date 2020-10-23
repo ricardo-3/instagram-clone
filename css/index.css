@@ -1,4 +1,6 @@
 
+
+
 /*Estilos del header*/
 .header{
     background: #343a40!important;
@@ -51,48 +53,63 @@ nav{
 }
 
  /*ESTILOS DEL CARRUSEL*/
-
+ .swiper-container {
+    width: 639px;
+    height: 100%;
+    border: solid 1px gray;
+    overflow: hidden;
+    position: relative;
+    margin-left: 45px;
+    
+}
   
-    .swiper-container {
-      width: 100%;
-      height: 100%;
-    }
 
-    .swiper-wrapper{
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .swiper-slide img{
-        max-width: 65px;
-        height: 65px;
-        border-radius: 50%;
-        margin: 3px 0 0 3px;
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-     
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
+  .swiper-wrapper{
       display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
       justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
+      width: 88%;
 
+  }
+
+  .swiper-slide img{
+    width: 70px;
+    height: 70px;
+    border-top: solid 2px red;
+    border-left: solid 2px purple;
+    border-right: solid 2px red;
+    border-bottom: solid 2px purple;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+  .swiper-button-next{
+      color: #000;
+  }
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+   
 
 main{
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 
@@ -188,9 +205,10 @@ aside{
     width: 30%;
     height: 600px;   
     margin-right: 10PX;
-    margin-top: 20px;    
-    margin-left: 62%;
+    margin-top: 121px;    
+    margin-left: 61%;
     position: fixed;
+    overflow: hidden;
 }
 
 aside .usuario{
@@ -339,22 +357,18 @@ aside .sugerencias{
 
 
 
-
+ 
 
 @media (min-width: 800px) {
     .footer{visibility: hidden}
-
-
  }
- 
- 
+
  @media (max-width: 800px) {
     aside{visibility: hidden}
     .iconos{visibility: hidden}
     .post{width: 100%;
           margin: -19px;  }
     .buscador{margin-left: 55px;}
-    
     
  }
  @media (max-width: 800px) {
@@ -366,8 +380,6 @@ aside .sugerencias{
         margin-left: 46px;
     
     }
-
-
  }
  
  
