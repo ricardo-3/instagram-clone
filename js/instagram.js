@@ -14,3 +14,30 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
+
+const swiperWrapper = document.querySelector("#swiperWrapper");
+
+fetch("./api/historias.json")
+.then((rest)=>rest.json())
+.then((rest)=>historias(rest))
+
+
+
+
+function historiaItem(his){
+  return`
+ <div>
+  <img src="${his.foto}" /> 
+  <p>${his.usuario}</p> 
+ </div>
+`
+}
+
+function historias(rest) {
+  const valor = rest.reduce((acumulador, item)=>{
+   return acumulador + historiaItem(item)
+  },"")
+ swiperWrapper.innerHTML=valor 
+
+} 
+
