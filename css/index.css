@@ -360,15 +360,8 @@ aside .sugerencias{
         margin-left: 45px;
         
     }
-
-     .swiper-container {
-        width: 100%;
-        max-width: 530px;        
-        height: 100%;
-        border: solid 1px gray;
-        overflow: hidden;    
-        margin-left: 45px;
-        
+    .footer{
+        display: block;
     }
 
 
@@ -376,8 +369,10 @@ aside .sugerencias{
 
 
 
+
+
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (min-width: 450px) and (max-width: 575.98px) { 
+@media(max-width: 575.98px) { 
     header{
         width: 100%; 
         
@@ -388,23 +383,29 @@ aside .sugerencias{
     aside{
         display: none;
     }
-    main{
-        width: 100%;
-    }
+    
+  
     .container{
     width: 105%;
     margin: auto;
     margin-left: -14px;
+    max-width: max-content;
+    }
+    .containerPost{
+        width: 374px;
+        margin-left: 87px;
     }
     .swiper-container{
-        width: 575px;
-        max-width: 100%;
-        margin-left: 0px;
+        width: 612px;
+        max-width: 1000%;
+        margin-left: 2px;
     }
     .post{
-        width: 573px;
-        margin-left: -45px;
+        width: 612px;
+        margin-left: -87px;
+        margin-top: -28px;
     }
+   
     }
    
   
@@ -413,26 +414,33 @@ aside .sugerencias{
  
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 320px) and (max-width: 767.98px) { 
+@media(min-width: 576px) and (max-width: 767.98px) { 
     header{
         width: 100%;
     }
     .buscador{
         display: none;
     }
+    .iconos .icono{
+        margin: 3px;
+    }
     aside{
         display: none;
     }
     .container{
-        max-width: max-content;
-        width: 107%;
+        max-width: 1000%;
+        width: 101%;
         margin: auto;
         margin-left: -14px;
-        margin-left: -59px;
+        margin-left: -56px;
     }
     .post{
         width: 113%;
         margin-top: -29px;
+    }
+
+    .footer{
+        display: none;
     }
     
     
@@ -446,54 +454,65 @@ aside .sugerencias{
         width: 100%; 
     }
     aside{
-        margin-left: 492px;
-    }
-    .swiper-container{
-        width: 431px;
-        max-width: 100%;
-        margin-left: -32px;
-    }
-    .post{
-        width: 433px;
-        margin-left: -78px;
-    }
-    
-    footer{
+        margin-left: 448px;
         display: none;
     }
- }
+    
+    .swiper-container{
+        width: 127%;
+        max-width: 1000%;
+        margin-left: -37px;
+    
+    }
+    .post{
+        width: 877px;
+        margin-left: -83px;
+    }
+    .footer{
+        display: none;
+    }
+        
+    }
+    
+    
+ 
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 991.99px) and (max-width: 1199.98px) { 
     header{
         width: 100%; 
     }
-   
+    
     .swiper-container{
         width: 531px;
         max-width: 100%;
         margin-left: 45px;
         height: 80px;
     }
-    }
-    
-    footer{
+    .footer{
         display: none;
     }
+    }
+    
+   
  
 
  /* Extra large devices (large desktops, 1200px and up)*/
  @media (min-width: 1200px) { 
-    footer{
-        display: none;
-    }
+   
     .header{
         width: 100%;
     }
     .swiper-container{
-        width: 639px;
-        max-width: 100%;
+        width: 638px;
+        max-width: 1000%;
+        margin-left: 46px;
     }
+    .footer{
+        display: none;
+    }
+   
+
     
   }
 
