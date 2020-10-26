@@ -17,15 +17,15 @@ nav{
     justify-content: space-around;
 }
 
- .header-menu a h2{
+ #title{
     font-family: cursive;
     color: #FFF;   
     margin-top: 6px;
     font-family: 'Leckerli One', cursive;   
 }
 
-.buscador{
-    margin-top: 7px;    
+#buscar{
+    margin-top: 10px;    
 }
 
 
@@ -375,9 +375,10 @@ aside .sugerencias{
 @media(max-width: 575.98px) { 
     header{
         width: 100%; 
+        z-index: 99;
         
     }
-    .buscador{
+    #buscar{
         display: none;
     }
     aside{
@@ -417,8 +418,9 @@ aside .sugerencias{
 @media(min-width: 576px) and (max-width: 767.98px) { 
     header{
         width: 100%;
+        z-index: 99;
     }
-    .buscador{
+    #buscar{
         display: none;
     }
     .iconos .icono{
@@ -452,6 +454,7 @@ aside .sugerencias{
 @media (min-width: 768px) and (max-width: 991.98px) { 
     header{
         width: 100%; 
+        z-index: 99;
     }
     aside{
         margin-left: 448px;
@@ -481,6 +484,7 @@ aside .sugerencias{
 @media (min-width: 991.99px) and (max-width: 1199.98px) { 
     header{
         width: 100%; 
+        z-index: 99;
     }
     
     .swiper-container{
@@ -502,6 +506,7 @@ aside .sugerencias{
    
     .header{
         width: 100%;
+        z-index: 99;
     }
     .swiper-container{
         width: 638px;

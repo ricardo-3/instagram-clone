@@ -1,3 +1,4 @@
+
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 3,
   spaceBetween: 30,
@@ -40,4 +41,12 @@ function historias(rest) {
  swiperWrapper.innerHTML=valor 
 
 } 
+
+
+// TITULO DE INSTAGRAM
+
+document.getElementById('title').innerHTML = 'Instagram';
+document.getElementById('buscar').placeholder='Buscar';
+
+
 

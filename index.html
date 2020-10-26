@@ -22,9 +22,9 @@
 
   <header class="header">
     <nav class="header-menu">     
-     <a href="https://www.instagram.com/pazmartinez_ok/?hl=es-la"><h2>Instagram</h2></a>
-     <form class="buscador" action="../../form-result.php" method="post" target="_blank">   
-        <input type="search" name="busquedacodigo" pattern="[A-Za-z0-9]{8,20}" title="" placeholder="Buscar"> 
+     <a href="https://www.instagram.com/pazmartinez_ok/?hl=es-la"><h2 id="title"></h2></a>
+     <form id="buscador" action="../../form-result.php" method="post" target="_blank">   
+      <input type="text" name="buscar" id="buscar">
     </form> 
     <div class="iconos">
       <a class="icono" href="./index.html"><i class="fas fa-house-damage"></i></a> 
@@ -143,12 +143,11 @@
 
   
   <main>  
-      <!-- cards usuarios 1 -->
+     <!-- <!-- cards usuarios 1 -->
       <div class="container">
          <!-- Swiper --> 
      <div class="swiper-container">
       <div class="swiper-wrapper" id="swiperWrapper">
-        <div class="swiper-slide"><img src="img/javascript.png" alt=""></div>
         <div class="swiper-slide"><img src="img/javascript.png" alt=""></div>
         <div class="swiper-slide"><img src="img/cronavirus.jpg" alt=""></div>
         <div class="swiper-slide"><img src="img/goku1.jpg" alt=""></div>
