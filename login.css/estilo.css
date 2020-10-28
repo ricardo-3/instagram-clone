@@ -1,0 +1,278 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+    font-family: 'Crimson Text', serif;
+}
+
+header{
+    width:100% ;
+    height: 600px;
+    display: flex;    
+}
+
+
+.mensaje {
+    background: black;
+    margin-top: 10rem;
+    color: yellow;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 200px;
+    height: 100px;
+    margin-left: 70%;
+    z-index: 3;
+    position: absolute; 
+    text-align: center;  
+    
+  }
+
+
+  .mensaje:empty {
+    display: none;
+  }
+  
+ 
+
+
+.imagen img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.login{
+    width: 290px;
+    max-width: 100%;
+    height: 480px;    
+    position: absolute;    
+    margin-top: 100px;
+    margin-left: 52%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.inicio{
+    width: 100%;
+    height: 320px;
+    background-color: #FFF;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px silver;
+    border-radius: 3px;
+}
+
+.redes{
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+    margin-top:10px ;
+    text-align: center;
+    border: solid 1px silver;
+    border-radius: 3px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    
+}
+
+
+.descarga{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;      
+    display: flex;  
+    justify-content:center
+}
+
+.descarga_img{
+    width: 100%;
+    height: 40px;    
+    
+    display: flex;
+    align-items: flex-end;
+}
+
+.descarga p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.descarga_img img{
+    width: 145px;
+    max-width: 100%;
+    height: 40px;   
+}
+
+.inicio h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Leckerli One', cursive;  
+    font-size: 35px;
+   
+}
+
+.inicio .texto{
+    width: 90%;
+    height: 40px;
+    margin: 5px 0;
+    background: #fafafa;
+    border: solid 1px silver;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+
+.inicio button{
+    width: 90%;   
+    font-size: 13px;
+    padding: 7px;
+    background-color: #0095f6;
+    border: solid 1px skyblue;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.inicio button:hover{
+    background-color: #b2dffc;
+    border: solid 1px skyblue;
+    color: white;
+    border-radius: 4px;
+}
+
+.inicio a{
+    margin: 5px 0;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 5px;
+    font-size: 15px;
+    margin: 5px 0;
+    color: #0095f6;
+}
+
+.inicio hr{    
+    margin-bottom: 15px;
+}
+
+
+.inicio a i{
+    font-size: 15px;    
+    margin-right: 5px;
+}
+
+
+.redes a{    
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1125px){
+
+    
+.login{
+    width: 250px;
+    max-width: 100%;
+    height: 370px;    
+    position: absolute;    
+    margin-top: 80px;
+    margin-left: 52%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+}
+
+@media only screen and (max-width: 1020px){
+
+    .imagen{visibility: hidden;
+    }
+
+    .login{
+        width: 300px;
+        max-width: 100%;
+        height: 450px;    
+        position: absolute;    
+        margin-top: 80px;
+        margin-left: 47%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+
+    .login{
+        width: 300px;
+        max-width: 100%;
+        height: 450px;    
+        position: absolute;    
+        margin-top: 80px;
+        margin-left: 40%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+
+}
+
+@media only screen and (max-width: 568px){
+
+    .login{
+        width: 300px;
+        max-width: 100%;
+        height: 450px;    
+        position: absolute;    
+        margin-top: 80px;
+        margin-left: 30%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+
+}
+
+@media only screen and (max-width: 470px){
+
+    .login{
+        width: 300px;
+        max-width: 100%;
+        height: 450px;    
+        position: absolute;    
+        margin-top: 80px;
+        margin-left: 25%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+
+}
+
+
+
