@@ -3,7 +3,7 @@
 
 /*Estilos del header*/
 .header{
-    background: #343a40!important;
+    background:white!important;
     width: 100%;
     height: 50px;    
     position: fixed;
@@ -12,9 +12,17 @@
     
 }
 
+body{
+    background-color: #fafafa;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
+    background: white;
+}
+#logoInsta{
+    margin-top: 8px;
 }
 
  #title{
@@ -192,7 +200,7 @@ main{
 }
 
 .icono i{
-    color: aliceblue;
+    color:black;
 }
 
 .perfil img{

@@ -18,9 +18,9 @@ var swiper = new Swiper('.swiper-container', {
 
 const swiperWrapper = document.querySelector("#swiperWrapper");
 
-fetch("./api/historias.json")
+/*fetch("../api/historias.json")
 .then((rest)=>rest.json())
-.then((rest)=>historias(rest))
+.then((rest)=>historias(rest))*/
 
 
 
