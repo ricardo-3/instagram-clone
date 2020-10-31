@@ -381,7 +381,7 @@ aside .sugerencias{
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media(max-width: 575.98px) { 
-    header{
+    header{background: #dbdbdb;
         width: 100%; 
         z-index: 99;
         
@@ -424,7 +424,7 @@ aside .sugerencias{
 
 /* Small devices (landscape phones, 576px and up)*/
 @media(min-width: 576px) and (max-width: 767.98px) { 
-    header{
+    header{background: #dbdbdb;
         width: 100%;
         z-index: 99;
     }
@@ -460,7 +460,7 @@ aside .sugerencias{
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    header{
+    header{background: #dbdbdb;
         width: 100%; 
         z-index: 99;
     }
@@ -491,7 +491,7 @@ aside .sugerencias{
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 991.99px) and (max-width: 1199.98px) { 
-    header{
+    header{background: #dbdbdb;
         width: 100%; 
         z-index: 99;
     }
@@ -513,7 +513,7 @@ aside .sugerencias{
  /* Extra large devices (large desktops, 1200px and up)*/
  @media (min-width: 1200px) { 
    
-    .header{
+    .header{background: #dbdbdb;
         width: 100%;
         z-index: 99;
     }
