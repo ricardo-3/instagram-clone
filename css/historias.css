@@ -1,0 +1,20 @@
+.historiasContainer{
+    display: flex;
+    padding: 10px;
+    border: solid 1px black;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFF;
+
+}
+.historia img{
+  height: 60px;
+  border-radius: 50%;
+  width: 60px;
+}
+.historia{
+    margin-right: 10px;
+}
+.historia p{
+    font-size: 12px;
+}

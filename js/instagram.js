@@ -45,7 +45,7 @@ function historias(rest) {
 
 // TITULO DE INSTAGRAM
 
-document.getElementById('title').innerHTML = 'Instagram';
+//document.getElementById('title').innerHTML = 'Instagram';
 document.getElementById('buscar').placeholder='Buscar';
 
 
