@@ -3,16 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-<script src="js/carrusel.js"></script>
-<script src="js/carrusel.min.js"></script>
     <!-- CSS only -->
-    
 <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">   
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
  <link rel="stylesheet" href="css/index.css"/>
  <link rel="stylesheet" href="css/historias.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">    
@@ -147,14 +140,14 @@
 
       <div class="container">
 
-      <div class="historiasContainer">
+      <div class="historiasContainer" id="historiasContainer"></div>
 
-        <div class="historia">
-          <img src="img/javascript.png" alt="imagen">
-          <p>javascript</p>
-        </div>
-        
-        <div class="historia">
+         <!-- <div class="historia" id="historia'+i+'" >
+          <img src="img/javascript.png" id="imagen '+i+'" alt="imagen">
+          <p id="parrafo '+i+'">javascript</p>
+        </div> 
+      
+         <div class="historia" >
           <img src="img/cronavirus.jpg" alt="imagen">
           <p>coronavirus</p>
         </div>
@@ -162,37 +155,19 @@
         <div class="historia">
           <img src="img/goku1.jpg" alt="imagen">
           <p>Goku</p>
-        </div>
-      </div>
+        </div>  -->
+      
  
     
-      <div class="postContainer" id="postContainer"></div>       
+      <div class="postContainer" id="postContainer">
+
+      </div>       
       
     </div>
 
-     <!-- cards usuarios 1 -->      <!-- 
-         
-     <div class="swiper-container">
-      <div class="swiper-wrapper" id="swiperWrapper">
-        <div class="swiper-slide"><img src="img/javascript.png" alt=""></div>
-        <div class="swiper-slide"><img src="img/cronavirus.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="img/goku1.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="img/hackers.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="img/messi-cristiano.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="img/metallica.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="img/nucba1.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="img/palmeras.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="img/pampita.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="img/react.png" alt=""></div>
-        
-      </div>
-      
-      <div class="swiper-pagination"></div>
-      
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      </div>   -->
-    
+
+
+     
  
   </main>
 
@@ -206,9 +181,9 @@
      </nav>      
 </footer>
 
-<script src="../package/swiper-bundle.min.js"></script>
 <script src="js/instagram.js"></script>
 <script src="ig.js"></script>
+<script src="js/carrusel.js"></script>
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

@@ -1,0 +1,128 @@
+{  
+  "carrusel":[
+  {
+    "nombre":"Paz Martinez",
+    "imgFoto":"https://i.postimg.cc/VkNvMt4j/pazPost.jpg",
+    "ruta":  "https://postimg.cc/gallery/VC53V3n"
+    
+  },
+  {
+    "nombre":"Noticias Argentina",
+    "imgFoto": "https://i.postimg.cc/tRhsHpYV/cronavirus.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  },
+  {
+    "nombre":"Goku",
+    "imgFoto": "https://i.postimg.cc/bvDvVj7r/goku1.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Charly",
+    "imgFoto": "https://i.postimg.cc/BnjsfBq2/charly.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Hackers",
+    "imgFoto": "https://i.postimg.cc/c1FV1tkh/hackers.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Javascript",
+    "imgFoto": "https://i.postimg.cc/0Qsqmg7C/javascript.png",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"kandinsky",
+    "imgFoto": "https://i.postimg.cc/XvFbpNBJ/kandinsky.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Espn",
+    "imgFoto": "https://i.postimg.cc/KjcSqnqk/messi-cristiano.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Metallica",
+    "imgFoto": "https://i.postimg.cc/MZt8cFHy/metallica.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Nucba",
+    "imgFoto": "https://i.postimg.cc/tJ4wt9JF/nucba.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Modrian",
+    "imgFoto": "https://i.postimg.cc/bvDvVj7r/goku1.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Los Palmeras",
+    "imgFoto": "https://i.postimg.cc/m25fj1Qk/palmeras.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Dragon Ball Z",
+    "imgFoto": "https://i.postimg.cc/bvDvVj7r/goku1.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Pampita",
+    "imgFoto": "https://i.postimg.cc/g2L9TcDD/pampita.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"ReactJs",
+    "imgFoto": "https://i.postimg.cc/VL52Js38/react.png",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  },
+
+  {
+    "nombre":"Sergio",
+    "imgFoto": "https://i.postimg.cc/PJVcS0v9/sergio-User.jpg",
+    "ruta": "https://postimg.cc/gallery/VC53V3n"
+    
+  
+  }
+
+]
+}

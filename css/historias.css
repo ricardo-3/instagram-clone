@@ -1,16 +1,18 @@
 .historiasContainer{
     display: flex;
     padding: 10px;
-    border: solid 1px black;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
     width: 100%;
     box-sizing: border-box;
     background-color: #FFF;
-
+    border-radius: 3px;
+    overflow: hidden;
 }
 .historia img{
   height: 60px;
   border-radius: 50%;
   width: 60px;
+  margin-top: 16px;
 }
 .historia{
     margin-right: 10px;

@@ -9,6 +9,7 @@
     position: fixed;
     top: 0;    
     flex-wrap: wrap;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
     
 }
 
@@ -16,11 +17,16 @@ body{
     background-color: #fafafa;
 }
 
+
 nav{
+    width: 73%;
     display: flex;
     justify-content: space-around;
     background: white;
+    margin: 0px 13%;
 }
+    
+
 #logoInsta{
     margin-top: 8px;
 }
@@ -51,74 +57,9 @@ nav{
     text-decoration: none;
 }
 
-.cam{
-    margin-top: 10px; 
-  color: white;
-}
-
-.msn{
-    margin-top: 10px;
-    color: white;
-}
-
- /*ESTILOS DEL CARRUSEL*/
-
- .swiper-container {
-    width: 639px;
-    height: 100%;
-    border: solid 1px gray;
-    overflow: hidden;    
-    margin-left: 45px;
-    
-}
-  
-
-  .swiper-wrapper{
-      display: flex;
-      justify-content: center;
-      width: 88%;
-
-  }
-
-  .swiper-slide img{
-    width: 70px;
-    height: 70px;
-    border-top: solid 2px red;
-    border-left: solid 2px purple;
-    border-right: solid 2px red;
-    border-bottom: solid 2px purple;
-    border-radius: 50%;
-    margin: 10px;
-  }
-
-  .swiper-button-next{
-      color: #000;
-  }
-
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-   
 
 .mainContainer{
-    margin-top: 110px;
+    margin-top: 81px;
     width: 100%;
     margin-bottom: 30px;
     
@@ -202,8 +143,8 @@ nav{
 
 
 .container{    
-    width: 70%;
-    margin-left: 0;
+    width: 40%;
+    margin-left: 19%;
     padding-left: 45px;  
 }
 
@@ -220,10 +161,10 @@ nav{
 
 
 aside{
-    width: 30%;
+    width: 22%;
     height: 600px;   
     margin-right: 10PX;      
-    margin-left: 70%;
+    margin-left: 59%;
     position: fixed;
     overflow: hidden;
     margin-top: 0px;
