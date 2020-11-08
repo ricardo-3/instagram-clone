@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: #fafafa;
+}
 
 /*Estilos del header*/
 .header{
@@ -10,13 +12,11 @@
     top: 0;    
     flex-wrap: wrap;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
-    
 }
 
-body{
-    background-color: #fafafa;
+.header-menu a{
+    text-decoration: none;
 }
-
 
 nav{
     width: 73%;
@@ -26,7 +26,6 @@ nav{
     margin: 0px 13%;
 }
     
-
 #logoInsta{
     margin-top: 8px;
 }
@@ -51,13 +50,6 @@ nav{
    margin-left: 20px;    
 }
 
-
-
-.header-menu a{
-    text-decoration: none;
-}
-
-
 .mainContainer{
     margin-top: 81px;
     width: 100%;
@@ -65,10 +57,35 @@ nav{
     
 }
 
+/*ESTRILOS CARRUSEL*/
+.historiasContainer{
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.historia img{
+    height: 70px;
+    width: 70px;
+    margin-top: 16px;
+    border-top: solid 2px red;
+    border-left: solid 2px purple;
+    border-right: solid 2px red;
+    border-bottom: solid 2px purple;
+    border-radius: 50%;
+}
+.historia{
+    margin-right: 10px;
+}
+.historia p{
+    font-size: 12px;
+}
 
-
-
-
+/*ESTILOS DEL POST*/
 .postContainer{
     width: 100%;
     background-color: #FFF;
@@ -156,10 +173,9 @@ nav{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-   
 }
 
-
+/*ESTILOS DEL ASIDE*/
 aside{
     width: 22%;
     height: 600px;   
@@ -169,17 +185,12 @@ aside{
     overflow: hidden;
     margin-top: 0px;
 }
-
 aside .usuario{
     width: 90%;
     height: 70px;    
     display: flex;
     margin-top: 20px;
 }
-
-
-
-/* -------------------------*/
 .imagenes{
     width: 70px;
     height: 70px;
@@ -197,13 +208,11 @@ aside .usuario{
     margin: 3px 0 0 3px;
     
 }
-
 .usuario-nombre{
     width: 70%;
     height: 70px;    
     margin-left: 15px;
 }
-
 .usuario-nombre h6{
     margin: 15px  0 0 0;
 }
@@ -211,21 +220,12 @@ aside .usuario{
 .usuario-nombre p{
     color: gray;
 }
-
-
-
-
-/* -------------------------*/
-
-
 aside .usuarios{
     width: 90%;
     height: 30px;    
     margin-top: 30px;
     display: inline-flex;
-    justify-content: space-between;
-    
-        
+    justify-content: space-between;    
 }
 aside .usuarios a{    
     list-style: none;
@@ -236,11 +236,8 @@ aside .usuarios a{
 }
 
 aside .usuarios h6{ 
-    color: gray;   
-    
+    color: gray;     
 }
-
-
 aside .sugerencias{
     width: 90%;
     height: 50px;
@@ -249,18 +246,14 @@ aside .sugerencias{
     display: flex;
     align-items: center;
 }
-
-
 .imagen{
     width: 100%;
     max-width: 40px;    
     height: 40px;
     border: solid 1px red;  
     border-radius: 50%;
-    margin-right: 15px;
-    
+    margin-right: 15px; 
 }
-
 .imagen img{
     width: 36px;
     height: 36px;
@@ -283,66 +276,47 @@ aside .sugerencias{
     color: gray;
     font-size: 15px;
 }
-
 .ver-mas a{
     text-decoration: none;
 }
-
 .informacion{
     width: 90%;
     height: 75px;
     background-color: #fff;
-    margin-top: 10px;
-    
+    margin-top: 10px;   
 }
-
 .informacion h6{    
     margin: 5px 0 0 0;
     font-size: 12px;
     color: gray;
  }
-
 .informacion p{    
    margin: 0 0;
    font-size: 12px;
    color: gray;
 }
 
-     .swiper-container {
-        width: 100%;
-        max-width: 530px;        
-        height: 100%;
-        border: solid 1px gray;
-        overflow: hidden;    
-        margin-left: 45px;
-        
-    }
+
     .footer{
         display: block;
     }
 
-
-
-
-
-
-
-
+/*@MEDIAS QUERYS*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media(max-width: 575.98px) { 
     header{background: #dbdbdb;
         width: 100%; 
         z-index: 99;
-        
     }
+    
     #buscar{
         display: none;
     }
+    
     aside{
         display: none;
     }
     
-  
     .container{
     width: 105%;
     margin: auto;
@@ -353,11 +327,7 @@ aside .sugerencias{
         width: 374px;
         margin-left: 87px;
     }
-    .swiper-container{
-        width: 612px;
-        max-width: 1000%;
-        margin-left: 2px;
-    }
+   
     .post{
         width: 612px;
         margin-left: -87px;
@@ -366,17 +336,13 @@ aside .sugerencias{
    
     }
    
-  
-
-    
- 
-
 /* Small devices (landscape phones, 576px and up)*/
 @media(min-width: 576px) and (max-width: 767.98px) { 
     header{background: #dbdbdb;
         width: 100%;
         z-index: 99;
     }
+
     #buscar{
         display: none;
     }
@@ -386,8 +352,12 @@ aside .sugerencias{
     aside{
         display: none;
     }
+    .historiasContainer{
+        width: 100%;
+    }
+    
     .container{
-        max-width: 1000%;
+        max-width: 100%;
         width: 101%;
         margin: auto;
         margin-left: -14px;
@@ -401,12 +371,7 @@ aside .sugerencias{
     .footer{
         display: none;
     }
-    
-    
-    
-    
  }
-
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
     header{background: #dbdbdb;
@@ -417,13 +382,11 @@ aside .sugerencias{
         margin-left: 448px;
         display: none;
     }
-    
-    .swiper-container{
-        width: 127%;
-        max-width: 1000%;
-        margin-left: -37px;
-    
+    .historiasContainer{
+        width: 100%;
     }
+    
+
     .post{
         width: 877px;
         margin-left: -83px;
@@ -434,31 +397,19 @@ aside .sugerencias{
     }
         
     }
-    
-    
- 
-
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 991.99px) and (max-width: 1199.98px) { 
     header{background: #dbdbdb;
         width: 100%; 
         z-index: 99;
     }
-    
-    .swiper-container{
-        width: 531px;
-        max-width: 100%;
-        margin-left: 45px;
-        height: 80px;
+    .historiasContainer{
+      width: 100%;
     }
     .footer{
         display: none;
     }
     }
-    
-   
- 
-
  /* Extra large devices (large desktops, 1200px and up)*/
  @media (min-width: 1200px) { 
    
@@ -466,17 +417,12 @@ aside .sugerencias{
         width: 100%;
         z-index: 99;
     }
-    .swiper-container{
-        width: 638px;
-        max-width: 1000%;
-        margin-left: 46px;
+    .historiasContainer{
+        width: 100%;
     }
     .footer{
         display: none;
     }
-   
-
-    
   }
 
  
