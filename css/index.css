@@ -78,11 +78,13 @@ nav{
     border-bottom: solid 2px purple;
     border-radius: 50%;
 }
+
 .historia{
-    margin-right: 10px;
+    margin-right: 6px;
 }
 .historia p{
     font-size: 12px;
+    text-align: center;
 }
 
 /*ESTILOS DEL POST*/
@@ -297,9 +299,16 @@ aside .sugerencias{
 }
 
 
-    .footer{
-        display: block;
+.footer{
+        
+        width: 100%;
     }
+
+.footer nav{
+      box-shadow: black;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
 
 /*@MEDIAS QUERYS*/
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -368,9 +377,7 @@ aside .sugerencias{
         margin-top: -29px;
     }
 
-    .footer{
-        display: none;
-    }
+    
  }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -391,10 +398,7 @@ aside .sugerencias{
         width: 877px;
         margin-left: -83px;
     }
-    .footer{
-        display: none;
-        
-    }
+    
         
     }
 /* Large devices (desktops, 992px and up)*/
@@ -406,9 +410,7 @@ aside .sugerencias{
     .historiasContainer{
       width: 100%;
     }
-    .footer{
-        display: none;
-    }
+    
     }
  /* Extra large devices (large desktops, 1200px and up)*/
  @media (min-width: 1200px) { 
