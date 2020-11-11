@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login.instagram</title>
+    <title>signup.instagram</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
@@ -17,18 +17,18 @@
             <img src="img.login/fondoo_login.png" alt="Nature" class="responsive"> 
         </div>
         <div class="login">                       
-            <form id="loginForm" class="inicio">
-                <h1>Instagram</h1>                
-                    <input class="texto" type="text" id="loginEmail" placeholder="Telefono usuario o correo electronico" required>
-                    <input class="texto" type="password" id="loginPassword" maxlength="6" placeholder="Contraseña" required>
-                    <button  type="submit">Iniciar secion</button>                
+            <form id="signupForm" class="inicio">
+                <h1>Instagram</h1>  
+                    <h4>Regístrate para ver fotos y videos de tus amigos.</h4>              
+                    <input class="texto" type="text" id="signupEmail" placeholder="Telefono usuario o correo electronico" required>
+                    <input class="texto" type="password" id="signupPassword" maxlength="6" placeholder="Contraseña" required>
+                    <button  type="submit">Registrate</button>                
                 <hr width=200>
-                <a class="facebook" href="#"><i class="fab fa-facebook-square"></i>Inicia sesión con facebook</a>  
-                <a class="facebook" href="#">¿Olvidaste tu contraseña?</a>
+                <a class="facebook" href="#"><i class="fab fa-facebook-square"></i>Registrate con facebook</a>  
+                
             </form>
 
-
-            <div class="redes">¿No tienes una cuenta? <a href="signup.html">Registrate</a></div>
+            <div class="redes"> ¿tienes una cuenta ?<a href="login.html">Ingresa aqui</a></div>
             <div class="descarga">
                 <p>Descargar  app</p>
             </div>
@@ -45,6 +45,7 @@
     </header>
 
     
+
 <!-- scrip de firebase -->
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -75,6 +76,7 @@
 </script>
 
 
-    <script src="js/jslogin.js"></script>    
+
+<script src="js/signup.js"></script>
 </body>
 </html>
